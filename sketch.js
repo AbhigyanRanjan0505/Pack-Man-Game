@@ -1,4 +1,4 @@
-Pack-Man-Game/var gameState = "begin", score = 0, portal1, portal2, ghostHouse1, b = 0, c = 0;
+var gameState = "begin", score = 0, portal1, portal2, ghostHouse1, b = 0, c = 0;
 var ghostHouse2, ghostHouse3, ghostHouse4, touched = 0, ghostHouse5, ghost4Turn5;
 var ghostHouseBlock, wall1, wall2, wall3, wall4, wall5, wall6, wall7, wall13, a = 0;
 var wall15, wall16, wall17, wall18, wall19, wall20, wall21, wall22, wall23, wall24;
