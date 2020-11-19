@@ -1,4 +1,4 @@
-var gameState = "begin", score = 0, portal1, portal2, ghostHouse1, b = 0, c = 0;
+Pack-Man-Game/var gameState = "begin", score = 0, portal1, portal2, ghostHouse1, b = 0, c = 0;
 var ghostHouse2, ghostHouse3, ghostHouse4, touched = 0, ghostHouse5, ghost4Turn5;
 var ghostHouseBlock, wall1, wall2, wall3, wall4, wall5, wall6, wall7, wall13, a = 0;
 var wall15, wall16, wall17, wall18, wall19, wall20, wall21, wall22, wall23, wall24;
@@ -18,34 +18,34 @@ var ghost3Turn5, ghost3Turn6, ghost4Turn2, ghost4Turn3, ghost4Turn4, ghost4Turn6
 var bbg = 0, blocker2, blocker3, blocker4;
 
 function preload() {
-    wall1I = loadImage("../Images/Wall/Wall.png");
-    wall2I = loadImage("../Images/Wall/Wall2.png");
-    wall3I = loadImage("../Images/Wall/Wall3.png");
-    wall4I = loadImage("../Images/Wall/Wall4.png");
-    wall5I = loadImage("../Images/Wall/Wall5.png");
-    wall6I = loadImage("../Images/Wall/Wall6.png");
-    wall7I = loadImage("../Images/Wall/Wall7.png");
-    wall8I = loadImage("../Images/Wall/Wall8.png");
-    wall9I = loadImage("../Images/Wall/Wall9.png");
-    wall10I = loadImage("../Images/Wall/Wall10.png");
-    wall11I = loadImage("../Images/Wall/Wall11.png");
-    wall12I = loadImage("../Images/Wall/Block.png");
+    wall1I = loadImage("../Pack-Man-Game/Images/Wall/Wall.png");
+    wall2I = loadImage("../Pack-Man-Game/Images/Wall/Wall2.png");
+    wall3I = loadImage("../Pack-Man-Game/Images/Wall/Wall3.png");
+    wall4I = loadImage("../Pack-Man-Game/Images/Wall/Wall4.png");
+    wall5I = loadImage("../Pack-Man-Game/Images/Wall/Wall5.png");
+    wall6I = loadImage("../Pack-Man-Game/Images/Wall/Wall6.png");
+    wall7I = loadImage("../Pack-Man-Game/Images/Wall/Wall7.png");
+    wall8I = loadImage("../Pack-Man-Game/Images/Wall/Wall8.png");
+    wall9I = loadImage("../Pack-Man-Game/Images/Wall/Wall9.png");
+    wall10I = loadImage("../Pack-Man-Game/Images/Wall/Wall10.png");
+    wall11I = loadImage("../Pack-Man-Game/Images/Wall/Wall11.png");
+    wall12I = loadImage("../Pack-Man-Game/Images/Wall/Block.png");
 
-    cherryI = loadImage("../Images/Cherry.png");
-    gameOverI = loadImage("../Images/GameOver.png");
-    coinI = loadImage("../Images/Coin.png");
+    cherryI = loadImage("../Pack-Man-Game/Images/Cherry.png");
+    gameOverI = loadImage("../Pack-Man-Game/Images/GameOver.png");
+    coinI = loadImage("../Pack-Man-Game/Images/Coin.png");
 
-    pacmanClosedI = loadImage("../Images/Pacman/Close.png");
-    pacmanRightA = loadImage("../Images/Pacman/Right2.png");
-    pacmanLeftA = loadImage("../Images/Pacman/PacmanLeft2.png");
-    pacmanUpA = loadImage("../Images/Pacman/PacmanUp2.png");
-    pacmanDownA = loadImage("../Images/Pacman/PacmanDown2.png");
+    pacmanClosedI = loadImage("../Pack-Man-Game/Images/Pacman/Close.png");
+    pacmanRightA = loadImage("../Pack-Man-Game/Images/Pacman/Right2.png");
+    pacmanLeftA = loadImage("../Pack-Man-Game/Images/Pacman/PacmanLeft2.png");
+    pacmanUpA = loadImage("../Pack-Man-Game/Images/Pacman/PacmanUp2.png");
+    pacmanDownA = loadImage("../Pack-Man-Game/Images/Pacman/PacmanDown2.png");
 
-    ghost1I = loadImage("../Images/Ghost/GhostRed.png");
-    ghost2I = loadImage("../Images/Ghost/GhostOrange.png");
-    ghost3I = loadImage("Images/Ghost/GhostYellow.png");
-    ghost4I = loadImage("../Images/Ghost/GhostBlue.png");
-    fakeBlueGhostI = loadImage("../Images/Ghost/FakeBlueGhost.png");
+    ghost1I = loadImage("../Pack-Man-Game/Images/Ghost/GhostRed.png");
+    ghost2I = loadImage("../Pack-Man-Game/Images/Ghost/GhostOrange.png");
+    ghost3I = loadImage("../Pack-Man-Game/Images/Ghost/GhostYellow.png");
+    ghost4I = loadImage("../Pack-Man-Game/Images/Ghost/GhostBlue.png");
+    fakeBlueGhostI = loadImage("../Pack-Man-Game/Images/Ghost/FakeBlueGhost.png");
 }
 
 function setup() {
